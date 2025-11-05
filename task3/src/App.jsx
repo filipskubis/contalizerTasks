@@ -21,7 +21,6 @@ function App() {
       const filteredData = data.filter((entry) => {
         return Object.keys(entry).some((key) => {
           const value = String(entry[key]);
-          console.log(value);
           return value.includes(search);
         });
       });

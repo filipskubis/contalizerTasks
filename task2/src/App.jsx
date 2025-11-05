@@ -28,6 +28,7 @@ function App() {
             <input
               type="text"
               id="peselInput"
+              maxLength={11}
               className="bg-[#363636] p-2 rounded-lg focus:outline-[#363636]"
               value={pesel}
               onChange={(e) => {

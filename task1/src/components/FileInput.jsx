@@ -30,10 +30,7 @@ export default function FileInput({ setText }) {
           className="absolute inset-0 w-full h-full opacity-0 cursor-pointer pointer-events-none"
           onChange={handleFileChange}
         />
-        <div
-          onMouseEnter={() => console.log("yo")}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md transition-colors pointer-events-none"
-        >
+        <div className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md transition-colors pointer-events-none">
           <Upload className="w-5 h-5" />
           <span>Choose a file</span>
         </div>

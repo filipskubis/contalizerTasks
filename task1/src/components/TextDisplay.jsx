@@ -39,7 +39,7 @@ export default function TextDisplay({ text }) {
 
   if (transformedText) {
     return (
-      <div className="w-[400px] max-h-[600px] h-fit bg-white rounded-xl overflow-auto p-[8px] noScrollbar">
+      <div className="w-[400px] max-h-[70vh] h-fit bg-white rounded-xl overflow-auto p-[8px] noScrollbar">
         <pre className="whitespace-pre-wrap font-sans">{transformedText}</pre>
       </div>
     );
